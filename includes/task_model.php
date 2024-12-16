@@ -19,6 +19,7 @@ function isEmpty($task){
    }
 }
 
+// FETCH DATA FROM DB
 function getTasks($conn) {
    $sql = "SELECT * FROM tasks";
    $result = mysqli_query($conn, $sql);
